@@ -1,1 +1,4 @@
-
+if (Plr.Class == "Noob Lord") {
+  SetMaxHealth(Plr, 9999999999999);
+  SetHealth(Plr, 9999999999999);
+}
