@@ -15,16 +15,16 @@ if (Plr.Name == "<your user>") {
       var plr = playersdead[x];
       var teamselect = rand(1,<the total teams made>);
       if (teamselect == 1) {
-        var teamselect = "<1st class name>";
+        var teamselect = "<1st team name>";
       }
       if (teamselect == 2) {
-        var teamselect = "<2nd class name>";
+        var teamselect = "<2nd team name>";
       }
       if (teamselect == 3) {
-        var teamselect = "<3rd class name>";
+        var teamselect = "<3rd team name>";
       }
       if (teamselect == 4) {
-        var teamselect = "<4th class name>";
+        var teamselect = "<4th team name>";
       } 
       SetClass(plr, teamselect);
 }
