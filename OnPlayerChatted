@@ -1,1 +1,32 @@
+NewTeam("<TeamName>", "<BrickColor>");
+NewTeam("<TeamName>", "<BrickColor>");
+NewTeam("<TeamName>", "<BrickColor>");
+NewTeam("<TeamName>", "<BrickColor>");
 
+// You can add as many roles of the spawn wave as you want.
+if (Plr.Name == "<your user>") {
+// Doesn't have to be !Spawn<YourTeam> you can change the command in the quotes to something else.
+  if (Message == "!Spawn<YourTeam>") {
+    var playersdead = GetPlayersInTeam("Lobby");
+    var playersname = #GetPlayersByName();
+    var x = 0;
+    for (var a = 1; a < #playersdead; a = a + 1) {
+      x = a;
+      var plr = playersdead[x];
+      var teamselect = rand(1,<the total teams made>);
+      if (teamselect == 1) {
+        var teamselect = "<1st class name>";
+      }
+      if (teamselect == 2) {
+        var teamselect = "<2nd class name>";
+      }
+      if (teamselect == 3) {
+        var teamselect = "<3rd class name>";
+      }
+      if (teamselect == 4) {
+        var teamselect = "<4th class name>";
+      } 
+      SetClass(plr, teamselect);
+}
+}
+}
