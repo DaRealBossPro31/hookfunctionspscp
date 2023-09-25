@@ -1,0 +1,4 @@
+var PlayerVEC = Plr.Position
+if (Plr.Class != "SCP-049-2" or == strfind(Class, "SCP",1, true)) {
+Explode(
+}
