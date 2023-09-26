@@ -10,7 +10,7 @@ if (Plr.Name == "<your user>") {
     var playersdead = GetPlayersInTeam("Lobby");
     var playersname = #GetPlayersByName();
     var x = 0;
-    for (var a = 1; a < #playersdead; a = a + 1) {
+    for (var a = 1; a <= #playersdead; a = a + 1) {
       x = a;
       var plr = playersdead[x];
       var teamselect = rand(1,<the total teams made>);
